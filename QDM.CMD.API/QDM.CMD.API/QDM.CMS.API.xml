@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QDM.CMD.API</name>
+    </assembly>
+    <members>
+        <member name="M:QDM.CMD.API.Controllers.WeatherForecastController.Get">
+            <summary>
+            Get data from wheather
+            </summary>
+            <returns>List data wheather</returns>
+        </member>
+        <member name="M:QDM.CMD.API.Controllers.WeatherForecastController.Insert(QDM.CMD.API.WeatherForecast)">
+             <summary>
+             Insert wheather object
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Insert
+                 {
+                    "Date": "2020-09-12 15:17:22",
+                    "TemperatureC": "100 oc",
+                    "Summary": "Test current temp"
+                 }
+            
+             </remarks>
+             <returns>
+             Status after insert wheather object
+             </returns>
+        </member>
+        <member name="M:QDM.CMD.API.Controllers.WeatherForecastController.Search(QDM.CMD.API.WeatherForecast)">
+            <summary>
+            Search data from wheather
+            </summary>
+            <returns>List data wheather</returns>
+        </member>
+    </members>
+</doc>
